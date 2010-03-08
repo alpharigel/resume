@@ -1,0 +1,94 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\setlength{\headheight}{12pt} % allow room for 2-line header
+\setlength{\headsep}{12pt}  % space between header and text
+\setlength{\headheight}{12pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+\rhead{ {\it D. Goldin}\\{\it p. \thepage} } % put text in header (right side)
+\cfoot{}                                     % the foot is empty
+\topmargin=-1in % start text higher on the page
+%\downmargin=-1in % start text higher on the page
+
+\begin{document}
+\thispagestyle{empty} % this page has no header  
+
+\name{Daniel Goldin\\[6pt]}% the \\[6pt] adds a blank line after name
+
+\address{547 2nd Avenue, Apt 4 | New York, NY 10016 | (424) 229-2286}
+
+\begin{resume}
+\vspace{0.02in}
+\section{PROFESSIONAL EXPERIENCE}
+\vspace{2pt}
+{\sl Och Ziff Capital Management} \hfill New York, NY \\
+Quantitative Analyst \hfill   April 2007 to January 2009  
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item Designed and developed a Perl framework to carry out trading scenarios and simulations
+   \item Analyzed performance of various hedges to determine if fund performance could be improved
+   \item Tested a variety of factor regressions to try to explain fund performance in terms of the market
+   \item Carried out various Principal Component Analyses to try to explain market conditions
+   \item Created a system to detect market and data anomalies as well as an automated way to fix these issues
+ \end{itemize}
+
+{\sl ZS Associates} \hfill New York, NY \\
+Associate \hfill July 2005 to April 2007
+ \begin{itemize} \itemsep -2pt
+  \item  Used Excel and VBA to model the impact that adding more sales reps would have on physician prescribing behavior in order to determine optimal sales force size
+  \item Developed an Excel VBA tool to analyze the promotion system of a top five pharmaceutical company
+  \item Created a physician segmentation using SAS and Excel that was used to focus and refine client targeting efforts
+  \item Analyzed and reported on the goal setting process of a client and shared these findings with internal teams
+  \item Managed a team that developed a tool to compare and summarize data from two different data vendors that would be fed into the client’s incentive compensation system
+  \item Supported the incentive compensation system of over 10,000 sales representatives for a top five pharmaceutical company and facilitated the transition to a team in India
+\end{itemize} \vspace{-6pt}
+
+{\sl Cornell University} \hfill Ithaca, NY \\
+Academic Technology Center Consultant \hfill June 2004 to May 2005
+ \begin{itemize} \itemsep -2pt
+  \item Encouraged professors to integrate technology into the classroom in order to improve teaching and learning effectiveness
+  \item Aided professors in augmenting their courses with technology such as PowerPoint, Dreamweaver, and Photoshop
+  \item Mentored new employees in the use of relevant software packages and tools
+\end{itemize} \vspace{-6pt}
+
+{\sl Prebon Yamane} \hfill Jersey City, NJ \\
+Junior Programmer \hfill Summer 2001, 2002
+ \begin{itemize} \itemsep -2pt
+  \item Participated in a team effort to launch Prebon.Net, a product that allowed multiple clients access to price and other information on multiple trading desks
+  \item Collaborated with traders to gain a better understanding of their needs which aided me in developing a graphical user interface for their trading system
+  \item Familiarized myself with commodity trading and Prebon’s proprietary trading software
+\end{itemize} \vspace{-6pt}
+ 
+\vspace{0.02in}
+\section{EDUCATION}
+\vspace{2pt}
+{\sl Cornell University} \hfill Ithaca, NY \\
+College of Arts and Sciences \hfill August 2002 to May 2005
+ \begin{itemize} \itemsep -2pt
+  \item Majors: Economics and Mathematics; Minor: Computer Science
+  \item Cumulative GPA: 3.57; Economics GPA: 3.86; Mathematics GPA: 3.62
+  \item SAT: 1500 (800 Math; 700 Verbal)
+  \item Activities and Awards \vspace{-6pt}
+    \begin{itemize} \itemsep -2pt
+    \item First place winner of the Cornell Freshmen Mathematics Prize Exam
+    \item Editor of the Visible Hand – Cornell’s undergraduate economics journal
+    \item Member of the Cornell Investment Club and the Cornell Economic Society
+    \end{itemize}
+\end{itemize} \vspace{-6pt}
+ 
+\vspace{0.2in} 
+\section{ADDITIONAL} 
+\vspace{2pt}
+\begin{itemize}
+  \item Technical proficiencies: Microsoft Office, Microsoft Visual Basic for Applications, SAS, Perl, PHP, MySQL, Bloombeg
+  \item Languages: Russian (fluent)
+  \item Interests: Running, game theory, reading, traveling, genetic programming, agent-based simulations
+\end{itemize} \vspace{-6pt}
+ 
+\end{resume} 
+\end{document}
