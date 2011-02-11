@@ -11,9 +11,9 @@
 \newsectionwidth{0pt}  % So the text is not indented under section headings
 \usepackage{fancyhdr}  % use this package to get a 2 line header
 \renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
-\setlength{\headheight}{24pt} % allow room for 2-line header
-\setlength{\headsep}{24pt}  % space between header and text
-\setlength{\headheight}{24pt} % allow room for 2-line header
+\setlength{\headheight}{16pt} % allow room for 2-line header
+\setlength{\headsep}{16pt}  % space between header and text
+\setlength{\headheight}{16pt} % allow room for 2-line header
 \pagestyle{fancy}     % set pagestyle for document
 \rhead{ {\it D. Goldin}\\{\it p. \thepage} } % put text in header (right side)
 \cfoot{}                                     % the foot is empty
@@ -23,33 +23,37 @@
 \begin{document}
 \thispagestyle{empty} % this page has no header  
 
-\name{Daniel Goldin\\[6pt]}% the \\[6pt] adds a blank line after name
+\name{Daniel Goldin\\[1pt]}% the \\[6pt] adds a blank line after name
 
-\address{547 2nd Avenue, Apt 4\hspace{0.1in}\vline\hspace{0.1in}New York, NY 10016
+\address{80 Park Avenue, Apt 3D\hspace{0.1in}\vline\hspace{0.1in}Hoboken, NJ 07030
 \hspace{0.1in}\vline\hspace{0.1in}
-dangoldin@gmail.com\hspace{0.1in}\vline\hspace{0.1in}(424) 229-2286}
+dangoldin@gmail.com\hspace{0.1in}\vline\hspace{0.1in}(201) 341-3384}
 
 \begin{resume}
 
 \section{PROFESSIONAL EXPERIENCE}
 \vspace{1pt}
 {\sl Yodle} \hfill New York, NY \\
-Quantitative Engineer \hfill   February 2009 to Present
+Analytics Product Manager \hfill   March 2010 to Present
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item Managed the design of a tracking framework that led to an increase in report correctness/efficiency
+   \item Updated and redefined KPIs to incorporate new business lines
+   \item Revamped client services and sales teams metrics to align with business goals
+ \end{itemize} \vspace{-12pt}
+Quantitative Engineer \hfill   February 2009 to March 2010
    \begin{itemize} \itemsep -2pt % reduce space between items
    \item Utilized machine learning techniques to automatically classify phone calls (Python)
    \item Researched and developed models that simulated the SEM space (Excel, R, Java)
    \item Codeveloped framework to help backtest our models (Java)
-   \item Introduced metrics to help measure business performance
-   \item Helped bring quantitative methods to marketing and service teams
  \end{itemize} \vspace{-6pt}
 
 {\sl Och Ziff Capital Management} \hfill New York, NY \\
 Quantitative Analyst \hfill   April 2007 to January 2009  
    \begin{itemize} \itemsep -2pt % reduce space between items
-   \item Designed and developed a Perl trading simulation framework
-   \item Developed a system to identify possible portfolio hedges
-   \item Explained fund performance using a factor model, including a PCA factor
-   \item Created a data anomaly detection system
+   \item Designed and developed a trading simulation framework (Perl)
+   \item Developed a system to identify possible portfolio hedges (Perl)
+   \item Explained fund performance using various factor models (Perl)
+   \item Created a data anomaly detection system (Perl)
  \end{itemize} \vspace{-6pt}
 
 {\sl ZS Associates} \hfill New York, NY \\
@@ -57,7 +61,6 @@ Associate \hfill July 2005 to April 2007
  \begin{itemize} \itemsep -2pt
   \item Created model to determine optimal sales force size (Excel and VBA)
   \item Analyzed the promotion system of a large pharmaceutical company (Excel and VBA)
-  \item Focused and refined client targeting practices (SAS and Excel)
   \item Managed the transition of an incentive compensation system to a team in India
 \end{itemize} \vspace{-6pt}
 
@@ -70,10 +73,9 @@ Academic Technology Center Consultant \hfill June 2004 to May 2005
 {\sl Prebon Yamane} \hfill Jersey City, NJ \\
 Junior Programmer \hfill Summer 2001, 2002
  \begin{itemize} \itemsep -2pt
-  \item Automated software testing process and learned the basics of trading
-\end{itemize} \vspace{-6pt}
+  \item Automated software testing process and learned the basics of financial markets
+\end{itemize} \vspace{-8pt}
  
-\vspace{0.02in}
 \section{EDUCATION}
 \vspace{1pt}
 {\sl Cornell University} \hfill Ithaca, NY \\
@@ -88,22 +90,21 @@ College of Arts and Sciences \hfill August 2002 to May 2005
     \item Editor of the Visible Hand – Cornell’s undergraduate economics journal
     \item Member of the Cornell Investment Club and the Cornell Economic Society
     \end{itemize} \vspace{0px}
-\end{itemize} \vspace{0px}
+\end{itemize} \vspace{-8pt}
 
-\vspace{-6pt}
 \section{ADDITIONAL} 
 \vspace{1pt}
 {\sl Skills, Interests, and Projects}
 \begin{itemize} \itemsep -2pt
   \item Technical proficiencies: Microsoft Office and VBA, Perl, PHP, MySQL, Bloomberg, R, Python, Java, SVN, CVS, Git
   \item Languages: Russian (fluent)
-  \item Interests: Running, game theory, reading, traveling, genetic programming, agent-based simulations
+  \item Interests: Swimming, game theory, reading, traveling, genetic programming, agent-based simulations
   \item Projects: \vspace{-6pt}
     \begin{itemize} \itemsep -2pt
-    \item Quantitative finance toolkit (Python)
+    \item Personal finance toolkit (Python)
     \item Persistent genetic programming framework (Python)
-    \item New York City event aggregator (PHP, Perl)
-    \end{itemize} \vspace{0px}    
+    \item New York City event aggregator and discovery engine (PHP, Perl)
+    \end{itemize} \vspace{0px}
 \end{itemize} \vspace{0px}
 
 \end{resume} 
