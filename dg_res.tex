@@ -15,16 +15,16 @@
 \setlength{\headsep}{12pt}  % space between header and text
 \setlength{\headheight}{16pt} % allow room for 2-line header
 \pagestyle{fancy}     % set pagestyle for document
-\rhead{ {\it Dan Goldin}\\{\it p. \thepage} } % put text in header (right side)
+\rhead{ {\it Daniel Goldin}\\{\it p. \thepage} } % put text in header (right side)
 \cfoot{}                                     % the foot is empty
-\textheight=1000pt
+\textheight=700pt
 \topmargin=-0.8in % start text higher on the page
-\footskip=12pt
+%\footskip=12pt
 
 \begin{document}
 \thispagestyle{empty} % this page has no header  
 
-\name{Dan Goldin\\[1pt]}% the \\[6pt] adds a blank line after name
+\name{Daniel Goldin\\[1pt]}% the \\[6pt] adds a blank line after name
 
 \address{80 Park Avenue, Apt 3D\hspace{0.1in}\vline\hspace{0.1in}Hoboken, NJ 07030
 \hspace{0.1in}\vline\hspace{0.1in}
@@ -33,43 +33,60 @@ dangoldin@gmail.com\hspace{0.1in}\vline\hspace{0.1in}(201) 341-3384}
 \begin{resume}
 
 \section{PROFESSIONAL EXPERIENCE}
-\vspace{1pt}
-{\sl Glossi} \hfill New York, NY \\
-Cofounder \hfill   Jul 2011 to Present
+\vspace{3pt}
+{\sl Makers Alley (https://makersalley.com)} \hfill New York, NY \\
+Tech Cofounder \hfill   Oct 2012 to Present
    \begin{itemize} \itemsep -2pt % reduce space between items
-   \item Lead the development of Glossi, a platform to help users brand themselves through through social media
-   \item Grew user base to over 1,500 users within a 3 months private beta period
- \end{itemize} \vspace{-6pt}
+   \item Built a marketplace to connect woodworkers, metalworkers, and designers who specialize in custom furniture with customers
+   \item Developed the data model which included supported for customizable options
+ \end{itemize} %\vspace{-6pt}
+
+{\sl Pressi (http://getpressi.com)} \hfill New York, NY \\
+Tech Cofounder \hfill   Jul 2011 to Present
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item Led the backend development of Pressi (formerly Glossi), a platform to help consumers and companies brand themselves by aggregating their social media into mashup pages
+   \item Achieved ramen profitability within the first year
+ \end{itemize} %\vspace{-6pt}
 
 {\sl Yodle} \hfill New York, NY \\
-Analytics Product Manager \hfill   March 2010 to Present
+Product Manager \hfill   March 2010 to Present
    \begin{itemize} \itemsep -2pt % reduce space between items
-   \item Revamped client services and sales teams metrics to align with business goals
-   \item Managed the development of a a company-wide reporting system
-   \item Led an initiative to clean up the call tracking system and improve call quality for our clients
+   \item Worked closely with the engineering and UX teams to build a real-time commission system that is shifting sales rep behavior
+   \item Revamped client services and sales metrics to align with strategic company goals
+   \item Managed the development of a company-wide reporting system that is currently responsible for hundreds of reports across every department
+   \item Initiated a project to clean up the call tracking system and improve the ROI for clients
  \end{itemize} \vspace{-12pt}
 Quantitative Engineer \hfill   February 2009 to March 2010
    \begin{itemize} \itemsep -2pt % reduce space between items
-   \item Researched and developed models to simulate SEM bidding that led to a 10\% ROI increase for our clients
-   \item Utilized machine learning techniques to automatically classify phone calls
-   \item Codeveloped a model backtesting framework
- \end{itemize} \vspace{-6pt}
+   \item Researched and developed models to simulate SEM bidding that led to a 15\% ROI increase for clients
+   \item Released a tool to identify and recommend upsell candidates which led to a 25\% increase in month/month upsells
+   \item Applied machine learning techniques to automatically classify clients' phone calls
+   \item Codeveloped a backtesting framework to help measure the accuracy of optimization models and accelerate development speed
+ \end{itemize} %\vspace{-6pt}
+
+{\sl Scenepeek} \hfill New York, NY \\
+Cofounder \hfill   March 2008 to March 2010
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item Cofounder of a startup that tried to help users discover and share local events
+   \item Developed simple machine learning algorithms to extract structured event data from raw text
+   \item Integrated the Solr indexing engine to improve performance of search functionality
+ \end{itemize} %\vspace{-6pt}
 
 {\sl Och Ziff Capital Management} \hfill New York, NY \\
 Quantitative Analyst \hfill   April 2007 to January 2009  
    \begin{itemize} \itemsep -2pt % reduce space between items
-   \item Designed and developed a trading simulation framework
-   \item Developed a system to identify possible portfolio hedges
-   \item Created a data anomaly detection system
- \end{itemize} \vspace{-6pt}
+   \item Designed and developed a framework to easily test various trading strategies which led to increased productivity for a four person team
+   \item Developed a system to recommend portfolio hedges which was used in a \$10B+ equity portfolio
+   \item Created an anomaly detection system to identify mistakes in vendor data before they were used by the financial models
+ \end{itemize} %\vspace{-6pt}
 
 {\sl ZS Associates} \hfill New York, NY \\
 Associate \hfill July 2005 to April 2007
  \begin{itemize} \itemsep -2pt
-  \item Created model to determine optimal sales force size
-  \item Analyzed the promotion system of a large pharmaceutical company
-  \item Managed the transition of an incentive compensation system to a team in India
-\end{itemize} \vspace{-6pt}
+  \item Created a model to determine optimal sales force size and structure for a ~10,000 person sales force
+  \item Analyzed the promotion system of a large pharmaceutical company and provided an interactive dashboard
+  \item Managed the transition of an incentive compensation system to a three person team in India
+\end{itemize} %\vspace{-6pt}
 
 {\sl Other} \\
 {\sl Cornell University} - Academic Technology Center Consultant \hfill June 2004 to May 2005 \\
@@ -77,33 +94,34 @@ Associate \hfill July 2005 to April 2007
 \vspace{-14pt}
  
 \section{EDUCATION}
-\vspace{1pt}
+\vspace{3pt}
 {\sl Cornell University} \hfill Ithaca, NY \\
 College of Arts and Sciences \hfill August 2002 to May 2005
  \begin{itemize} \itemsep -2pt
   \item Majors: Economics and Mathematics; Minor: Computer Science
+  \item Graduated in three years with two majors and one minor
   \item Cumulative GPA: 3.57; Economics GPA: 3.86; Mathematics GPA: 3.62
   \item SAT: 1500 (800 Math; 700 Verbal)
   \item Activities and Awards \vspace{-6pt}
     \begin{itemize} \itemsep -1pt
-    \item First place winner of the Cornell Freshmen Mathematics Prize Exam
-    \item Editor of the Visible Hand – Cornell’s undergraduate economics journal
+    \item Tied for first place in the Cornell Freshmen Mathematics Prize Exam
+    \item Editor of the Visible Hand - Cornell's undergraduate economics journal
     \item Member of the Cornell Investment Club and the Cornell Economic Society
     \end{itemize} \vspace{0px}
 \end{itemize} \vspace{-8pt}
 
 \section{ADDITIONAL} 
-\vspace{1pt}
+\vspace{3pt}
 {\sl Skills, Interests, Projects}
 \begin{itemize} \itemsep -2pt
-  \item Technical proficiencies: Microsoft Office and VBA, Perl, PHP, MySQL, PostgreSQL, Bloomberg, R, Python, Java, SVN, CVS, Git
+  \item Technical proficiencies: Microsoft Office and VBA, Perl, PHP, R, Python, Django, Javascript, D3, Vega, Java, MySQL, PostgreSQL, Bloomberg, SVN, CVS, Git, JIRA
   \item Languages: Russian (fluent)
-  \item Interests: Swimming, game theory, reading, traveling, genetic programming, agent-based simulations
+  \item Interests: Swimming, game theory, reading, traveling, genetic programming, data, visualization
   \item Projects: \vspace{-6pt}
     \begin{itemize} \itemsep -2pt
-    \item Scenepeek - A failed New York City event aggregator and discovery engine
-    \item Personal finance toolkit to monitor investment activity
-    \item Persistent genetic programming framework
+    \item Persistent genetic programming framework to simulate long running evolutionary processes
+    \item Personal finance toolkit to manage my investment portfolio
+    \item Digital art algorithm that tries to decompose an image into geometric shapes
     \end{itemize} \vspace{0px}
 \end{itemize} \vspace{0px}
 
